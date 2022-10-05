@@ -1,7 +1,13 @@
-h1 {
-    color: lightblue;
-}
+
 * {
-    color:white;
-    background-color:black;
+    color:black;
+    background-color:white;
+}
+h1 {
+    color: blue;
+}
+.nav{background-color:lightblue;
+}
+nac{
+    text-align: center;
 }
