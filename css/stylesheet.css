@@ -1,8 +1,9 @@
 .head {
     color: blue;
-    font-family: Montserrat,sans-serif;
-    font-style: italic;
+    
 }
+h1{font-family: Montserrat,sans-serif;
+    font-style: italic;}
 Element body {
     color:black;
     background-color:white;
