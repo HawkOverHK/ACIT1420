@@ -2,16 +2,26 @@
     color: blue;
     
 }
-h1 {color:blue;
-    font-family: Montserrat,sans-serif;
-    font-style: italic;
+/* h1 {
 }
-Element body {
+h2 {
+    
+} */
+body {
+    display:grid;
     color:black;
-    background-color:white;
+    background-color:  #edddd0;
+    grid-template-columns: 5;
+    grid-template-rows: ;
 }
-.nav{background-color:lightblue;
+.nav{color:blue;
+    font-family: Montserrat,sans-serif;
+    font-style: italic;   
+    background-color: #db504a;
+    grid-column: 2/4;
 }
-nav{
-    text-align: center;
+nav {
+    color: red;
+    grid-column: 1/2;
+    grid-row: 1fr;
 }
