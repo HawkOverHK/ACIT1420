@@ -7,8 +7,42 @@ Element body {
     color:black;
     background-color:white;
 }
-.nav{background-color:lightblue;
+.nav{background-color: #db504a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 nav{
-    text-align: center;
+    display: flex;
+    flex-direction: row;   
+}
+a{
+    margin: 5px;
+}
+main {
+    display: grid;
+    color:black;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+}
+h2{
+    grid-row: 1;
+}
+.p1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.img{
+    grid-column: 2;
+    grid-row: 2/3;
+}
+.p2{
+    grid-column: 1;
+    grid-row: 3/4;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #db504a;
 }
