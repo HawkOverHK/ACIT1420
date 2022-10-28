@@ -3,10 +3,7 @@ h1 {color:black;
     font-family: Montserrat,sans-serif;
     font-style: italic;
 }
-Element body {
-    color:black;
-    background-color:white;
-}
+
 .nav{background-color: #db504a;
     display: flex;
     justify-content: center;
