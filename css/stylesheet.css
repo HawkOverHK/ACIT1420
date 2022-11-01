@@ -42,3 +42,6 @@ footer{
     justify-content: center;
     background-color: #db504a;
 }
+ul{
+    list-style: none
+}
