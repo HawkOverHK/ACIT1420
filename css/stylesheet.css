@@ -71,7 +71,7 @@ hr {width: 100%;height: 2.5px;background-color:#666;opcaity: 0.5;}
     .Year{
         display: grid;
         grid-template-columns: 3;
-        grid-template-rows: 10;
+        grid-template-rows: 11;
     }
     .Year1{
         grid-column: 1;
@@ -79,11 +79,11 @@ hr {width: 100%;height: 2.5px;background-color:#666;opcaity: 0.5;}
     }
     .Year2{
         grid-column: 1;
-        grid-row: 6;
+        grid-row: 7;
     }
     .Year3{
         grid-column: 1;
-        grid-row: 9;
+        grid-row: 11;
     }
     
 }
