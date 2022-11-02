@@ -43,8 +43,23 @@ footer{
     background-color: #db504a;
 }
 ul{
-    list-style: none
-}
-.cen {
+    list-style: none;
+    padding-left:0px
     
 }
+.cen {
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 3;
+}
+
+@media (min-width:550px) {
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
