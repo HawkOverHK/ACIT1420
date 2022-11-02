@@ -43,8 +43,8 @@ footer{
 }
 ul{
     list-style: none;
-    padding-left:0px
-    
+    padding-left:0px;
+    display: grid;    
 }
 .cen {
     display: grid;
@@ -61,4 +61,28 @@ ul{
         display: flex;
         flex-direction: row;
     }
+    .Desc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 200px;
+    }
+    .Year{
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 10;
+    }
+    .Year1{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .Year2{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .Year3{
+        grid-column: 1;
+        grid-row: 9;
+    }
+    
 }
