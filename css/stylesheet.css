@@ -51,14 +51,14 @@ ul{
     grid-template-columns: 5;
     grid-template-rows: 3;
 }
-
+.navbank{
+    display: flex;
+    flex-direction: column;
+}
 @media (min-width:550px) {
-    div{
+
+    .navbank{
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
 }
-
-
