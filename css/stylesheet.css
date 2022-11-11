@@ -56,7 +56,7 @@ ul{
     flex-direction: column;
 }
 hr {width: 100%;height: 2.5px;background-color:#666;opcaity: 0.5;}
-@media (min-width:550px) {
+@media (min-width:600px) {
 
     .navbank{
         display: flex;
