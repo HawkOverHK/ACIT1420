@@ -27,18 +27,15 @@ if (input === "1310")
 {
 console.log('Yes I am taking the course: MATH 1310 Technical Math');
 }
-else (input !== "1630" || input !== "1116" || input !== "1310")
-{
-Array.push(input)
-}
+console.log(CourseList)
 
 
-for( 
-    let code in CourseList
-)
-{
-    if (CourseList.code.includes(input === '1116'),
-    console.log ('Yes I am taking this course')
-);
-    break;
-}
+// for( 
+//     let code in CourseList
+// )
+// {
+//     if (CourseList.code.includes(input === '1116'),
+//     console.log ('Yes I am taking this course')
+// );
+//     break;
+// } original code I worked with and defunct 
