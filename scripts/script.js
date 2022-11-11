@@ -1,10 +1,10 @@
 const CourseList = 
-// [{ code: ["ACIT 1630", "MATH 1310", "COMM 1116"],  name: ["Database Systems", "Technical Math", "Business Communications"]}]
-[{
-    code:"ACIT 1630", name:"Databse Systems",
-    code:"MATH 1310", name:"Technical Math",
-    code: "COMM 1116", name: "Business Communications"
-}]
+[{ code: ["ACIT 1630", "MATH 1310", "COMM 1116"],  name: ["Database Systems", "Technical Math", "Business Communications"]}]
+// [{
+//     code:"ACIT 1630", name:"Databse Systems",
+//     code:"MATH 1310", name:"Technical Math",
+//     code: "COMM 1116", name: "Business Communications"
+// }]
 
 let input;
 do{
@@ -24,15 +24,15 @@ CourseList.push({code:input, name:null})}
 //     code:"MATH 1310", name:"Technical Math",
 //     code: "COMM 1116", name: "Business Communications"
 // }
-if (input === "1630" && CourseList.code.includes(input))
+if (input === "1630" && CourseList[0].code[0].includes(input))
 {
 console.log ('Yes I am taking the course: ACIT 1630 Database Systems');
 }
-else if (input === "1116" && CourseList.code.includes(input))
+else if (input === "1116" && CourseList[0].code[2].includes(input))
 {
 console.log('Yes I am taking the course: COMM 1116 Business Communications');
 }
-else if (input === "1310" && CourseList.code.includes(input))
+else if (input === "1310" && CourseList[0].code[1].includes(input))
 {
 console.log('Yes I am taking the course: MATH 1310 Technical Math');
 }
