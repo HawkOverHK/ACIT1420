@@ -1,12 +1,16 @@
 const CourseList = 
-[{ code: ["ACIT 1630", "MATH 1310", "COMM 1116"],  name: ["Database Systems", "Technical Math", "Business Communications"]}]
-
+// [{ code: ["ACIT 1630", "MATH 1310", "COMM 1116"],  name: ["Database Systems", "Technical Math", "Business Communications"]}]
+[{
+    code:"ACIT 1630", name:"Databse Systems",
+    code:"MATH 1310", name:"Technical Math",
+    code: "COMM 1116", name: "Business Communications"
+}]
 
 let input;
 do{
 input = prompt ("Please enter a 4 digit pin");
 if (input !== '1116' && input !== '1630' && input !== '1310')
-{console.log('Must be a 4 Digit Class Number');
+{console.log('Must be a 4 Digit Class Number'),
 CourseList.push({code:input, name:null})}
 
 //prompt always returns string
@@ -15,15 +19,20 @@ CourseList.push({code:input, name:null})}
 } while(input !== '1116' && input !== '1630' && input !== '1310');
 
 
-if (input === "1630")
+// let CourseList = {
+//     code:"ACIT 1630", name:"Databse Systems",
+//     code:"MATH 1310", name:"Technical Math",
+//     code: "COMM 1116", name: "Business Communications"
+// }
+if (input === "1630" && CourseList.code.includes(input))
 {
 console.log ('Yes I am taking the course: ACIT 1630 Database Systems');
 }
-if (input === "1116")
+else if (input === "1116" && CourseList.code.includes(input))
 {
 console.log('Yes I am taking the course: COMM 1116 Business Communications');
 }
-if (input === "1310")
+else if (input === "1310" && CourseList.code.includes(input))
 {
 console.log('Yes I am taking the course: MATH 1310 Technical Math');
 }
